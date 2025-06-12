@@ -1,0 +1,49 @@
+{
+  "license": "0BSD",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo-google-fonts/poppins": "*",
+    "@expo/vector-icons": "^14.1.0",
+    "@expo/webpack-config": "^19.0.1",
+    "@hookform/resolvers": "*",
+    "@react-native-async-storage/async-storage": "2.1.2",
+    "@react-native-community/datetimepicker": "8.3.0",
+    "@react-navigation/drawer": "*",
+    "@react-navigation/native": "*",
+    "@react-navigation/native-stack": "*",
+    "expo": "~53.0.9",
+    "expo-font": "~13.3.1",
+    "expo-linear-gradient": "~14.1.4",
+    "expo-sqlite": "~15.2.10",
+    "expo-status-bar": "~2.2.3",
+    "react": "19.0.0",
+    "react-dom": "^19.0.0",
+    "react-hook-form": "*",
+    "react-native": "0.79.2",
+    "react-native-chart-kit": "*",
+    "react-native-gesture-handler": "~2.24.0",
+    "react-native-paper": "4.9.2",
+    "react-native-reanimated": "~3.17.4",
+    "react-native-safe-area-context": "5.4.0",
+    "react-native-screens": "~4.10.0",
+    "react-native-svg": "15.11.2",
+    "react-native-vector-icons": "*",
+    "react-native-web": "^0.20.0",
+    "web-vitals": "^5.0.1",
+    "yup": "*"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true,
+  "resolutions": {
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  }
+}
